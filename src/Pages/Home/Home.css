@@ -1,0 +1,57 @@
+.container {
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    width: min(1000px, 100vw);
+    height: 100vh;
+}
+
+.hero-section {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 80vh;
+   grid-template-areas: "intro logo";
+   /* background-color: burlywood; */
+
+}
+
+.hero-name {
+    font-size: 7rem;
+}
+
+.intro {
+    position: relative;
+    grid-area: intro;
+    display: flex;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+    justify-content: center;
+    height: 100%;
+    width: 40ch
+}
+
+.svg-logo {
+    position: absolute;
+    grid-area: logo;
+    height: 500px;
+    width: 500px;
+    top: 150px;
+    left: 100px;
+}
+
+.hero-svg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blob-svg1 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    z-index: -1;
+    top: 270px;
+    right: 110px;
+    transform:rotate(-20deg);
+}
+

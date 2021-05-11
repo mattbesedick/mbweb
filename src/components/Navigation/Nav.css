@@ -1,0 +1,21 @@
+nav {
+    margin-top: 1rem;
+    display: flex;
+    height: 5vh;
+    /* background-color:blanchedalmond; */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.name {
+    margin-right: auto;
+}
